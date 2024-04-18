@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholarship Opportunities</title>
+<link rel="stylesheet" href="blank.css" />
+<style>
+  body { font-family: Arial, sans-serif; }
+  .container { width: 80%; margin: auto; }
+  header { text-align: center;  }
+  .scholarship { margin-bottom: 20px; }
+  .scholarship h2 { color: #043f5d; }
+  .scholarship p { line-height: 1.6; }
+  /* Define a CSS animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the scholarship sections */
+  .scholarship {
+    opacity: 0; /* Initially hide the sections */
+    animation: fadeIn 1s ease-in-out forwards; /* Apply the animation */
+  }
+  
+  /* Add a delay to each section to create a staggered effect */
+  .scholarship:nth-child(odd) {
+    animation-delay: 0.5s;
+  }
+  .scholarship:nth-child(even) {
+    animation-delay: 1s;
+  }
+body{
+    background-image: url("pexels-andrea-piacquadio-3783725.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+</style>
+</head>
+<body>
+    <h1>Scholarship Opportunities</h1>
+
+  <section class="scholarship">
+    <h2><b>Merit Scholarship<b></h2>
+    <p> The students who have scored more than 80% in the acadamic are eligibe. <a href="http://127.0.0.1:5500/merit%20register.html">Apply here</a>.</p>
+  </section>
+  <section class="scholarship">
+    <h2>Sportsmen Scholarship</h2>
+    <p>The Students who show excellent skills in bith indoor and outdoor games are eligible. <a href="http://127.0.0.1:5500/sportsregister.html">Apply here</a> </p>
+  </section>
+  <section class="scholarship">
+    <h2>Category Scholarship</h2>
+    <p>The students who belongs to the low caste are eligible. <a href="http://127.0.0.1:5500/caste.html">Apply here</a>.</p>
+  </section>
+  <section class="scholarship">
+    <h2>PHC Scholarship </h2>
+    <p>The students who are handicapped by birth or disabilities casued by the accidents are eligible. <a href="http://127.0.0.1:5500/phc.html">Apply here</a></p>
+  </section>
+  <section class="scholarship">
+    <h2>Women Scholarship</h2> 
+    <p>Exclusive to female students pursuing degrees in areas of computer science, engineering, information technology, and web development. <a href="http://127.0.0.1:5500/women.html">Apply here</a></p> 
+  <div class="container">
+  
+    
+    <h4><p>General Instruction/ Guidelines</p></h4>
+    <ol>
+       <li>Candidates must read the instruction carefully before registration.</li>
+       <li>Candidates are advised to fill all the requisite details carefully and check properly before submission. As no correction/ editing is allowed after submission.</li>
+        <li>Any wrong/ false information may lead to rejection.</li>
+            <li>Candidates are advised to fill their correct and active mobile number and e-mail address in the online application. All Correspondence/ communication will be       made through mobile/ e-mail only.</li>
+                <li>Candidates are also advised to refer to National Scholarship Portal for regular updates.</li>
+                     
+          <li>For applications with EID, Scholarship to be disbursed only on furnishing of Aadhaar.</li>
+            <li> Aadhaar based eKYC will be performed to verify credential of candidates.</li>
+                <li> All scholarship payments will be made using Aadhaar Payment Bridge (APB) only.</li>
+                    <li>Registration made through parents’ Aadhaar will be valid only till student is minor, once candidate turns to major it will be his/her responsibility to update Aadhaar on NSP.</li>
+                        <li>Candidates are advised to ensure that his/her mobile number is linked to Aadhaar for receiving OTP from UIDAI. To check the mobile linking status please visit https://myaadhaar.uidai.gov.in/verify-email-mobile .</li>
+                            <li> Candidates are advised to ensure that bank account must be seeded with Aadhaar. To check the seeding status kindly visit https://resident.uidai.gov.in/bank-mapper.</li>
+                               
+    </ol>
+        
+</div>
+</body>
+</html>

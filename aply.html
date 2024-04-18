@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application Form</title>
+    <style>
+ body{
+    
+    background-image: url("pexels-artem-podrez-4492129.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 700px;
+    
+   
+}
+
+h1{
+  position:absolute;
+  top:1%;
+  left:54%;
+  font-family:Arial, Helvetica, sans-serif;
+  
+  
+  
+
+}
+
+form {
+
+    width: 50%;
+    margin-left:550px;
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    
+
+ 
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(193, 32, 137);
+  color:aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+    </style>
+</head>
+<body>
+    <h1>Scholarship Application Form</h1>
+    <form action="web.html" >
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="gpa">GPA:</label>
+        <input type="number" id="gpa" name="gpa" min="0" max="4" step="0.01" required><br><br>
+
+        
+        <label for="resume">Resume/CV:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
